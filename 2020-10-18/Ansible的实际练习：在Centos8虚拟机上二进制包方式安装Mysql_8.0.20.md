@@ -70,6 +70,9 @@ https://downloads.mysql.com/archives/get/p/23/file/mysql-8.0.20-linux-glibc2.12-
 ```
 4.安装测试，在ansible管理机上执行
 ```
+#语法检查
+ansible-playbook --syntax-check install_mysql_8.0.20.yml
+#执行playbook
 ansible-playbook install_mysql_8.0.20.yml
 ···
 执行成功！
