@@ -2,7 +2,7 @@
 
 1.通过RPM安装docker 17.03.0 版本并且配置docker阿里加速
 
-脚本中配置了一个阿里云的docker-ce仓库，然后从这个仓库中下载各个版本的docker-ce，安装完成后再把从阿里云申请
+脚本中配置了一个阿里云的docker-ce仓库，然后从这个仓库中下载各个版本的docker-ce，安装完成后再把从阿里云申请的加速器地址写入daemon.json文件中
 
 centos7一键安装docker脚本
 
